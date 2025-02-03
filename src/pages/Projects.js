@@ -1,14 +1,15 @@
 import "../styles/Projects.css";
+import arkanoidImage from "../assets/images/arkanoid.png";
 
 const projectsData = [
   {
     id: 1,
-    title: "Project One",
+    title: "Arkanoid Clone",
     description: "Description of project one",
-    technologies: ["React", "Node.js", "MongoDB"],
-    imageUrl: "/path-to-image",
-    githubUrl: "https://github.com/yourusername/project1",
-    liveUrl: "https://project1.com",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    imageUrl: arkanoidImage,
+    githubUrl: "https://github.com/rearl89/ms-project1",
+    liveUrl: "https://arkanoidproject.netlify.app/",
   },
   // Add more projects here
 ];
