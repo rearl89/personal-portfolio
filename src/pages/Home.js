@@ -1,4 +1,5 @@
 import "../styles/Home.css";
+import { NavLink } from "react-router-dom";
 
 function Home() {
   return (
@@ -11,12 +12,12 @@ function Home() {
           experience
         </p>
         <div className="cta-buttons">
-          <a href="/projects" className="cta-button primary">
+          <NavLink to="/projects" className="cta-button primary">
             View My Work
-          </a>
-          <a href="/about" className="cta-button secondary">
+          </NavLink>
+          <NavLink to="/about" className="cta-button secondary">
             About Me
-          </a>
+          </NavLink>
         </div>
       </section>
 
