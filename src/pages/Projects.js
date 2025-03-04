@@ -1,15 +1,27 @@
 import "../styles/Projects.css";
 import arkanoidImage from "../assets/images/arkanoid.png";
+import journalImage from "../assets/images/journal.png";
 
 const projectsData = [
   {
     id: 1,
     title: "Arkanoid Clone",
-    description: "Description of project one",
+    description:
+      "This was my first milestone project for the Software Development bootcamp I attended. It is a simple brickbreaker game.",
     technologies: ["HTML", "CSS", "JavaScript"],
     imageUrl: arkanoidImage,
     githubUrl: "https://github.com/rearl89/ms-project1",
     liveUrl: "https://arkanoidproject.netlify.app/",
+  },
+  {
+    id: 2,
+    title: "Personal Journal",
+    description:
+      "This was my final milestone project for the Software Development bootcamp I attended. It is a full-stack journal application with signup and login.",
+    technologies: ["MongoDB", "Express", "React", "Node.js", "Auth", "JWT"],
+    imageUrl: journalImage,
+    githubUrl: "https://github.com/rearl89/ms-project3",
+    liveUrl: "https://msproject3client.onrender.com",
   },
   // Add more projects here
 ];
