@@ -7,7 +7,7 @@ const projectsData = [
     id: 1,
     title: "Arkanoid Clone",
     description:
-      "This was my first milestone project for the Software Development bootcamp I attended. It is a simple brickbreaker game.",
+      "A classic brick-breaker arcade game built as the first milestone project during my Software Development bootcamp. This project demonstrates core front-end development skills, including DOM manipulation, collision detection, and game logic using HTML, CSS, and vanilla JavaScript.",
     technologies: ["HTML", "CSS", "JavaScript"],
     imageUrl: arkanoidImage,
     githubUrl: "https://github.com/rearl89/ms-project1",
@@ -17,7 +17,7 @@ const projectsData = [
     id: 2,
     title: "Personal Journal",
     description:
-      "This was my final milestone project for the Software Development bootcamp I attended. It is a full-stack journal application with signup and login.",
+      "A full-stack web application built as the final milestone project of my Software Development bootcamp. This project allows users to create and delete journal entries with secure user authentication using JWT. It showcases my experience in the MERN stack, API integration, and implementing secure signup and login functionality.",
     technologies: ["MongoDB", "Express", "React", "Node.js", "Auth", "JWT"],
     imageUrl: journalImage,
     githubUrl: "https://github.com/rearl89/ms-project3",
