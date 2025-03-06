@@ -24,7 +24,7 @@ function Home() {
       <section className="featured-section">
         <h2>Featured Projects</h2>
         <div className="featured-grid">
-          {/* Add 2-3 featured project cards here */}
+          <button>Personal Portfolio</button>
         </div>
       </section>
     </div>
