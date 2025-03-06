@@ -1,13 +1,12 @@
 import "../styles/Home.css";
 import { NavLink } from "react-router-dom";
-import rogerImage from "../assets/images/roger.jpg";
 
 function Home() {
   return (
     <div className="home-container">
       <section className="hero-section">
         <h1>Roger Earl</h1>
-        <image src="../assets/images/roger.jpg" />
+        <image src="../assets/images/roger.png" />
         <h2>Full Stack Web Developer</h2>
         <p className="intro-text">
           Building modern web applications with a focus on clean code and user
