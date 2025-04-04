@@ -1,6 +1,7 @@
 import "../styles/Projects.css";
 import arkanoidImage from "../assets/images/arkanoid.png";
 import journalImage from "../assets/images/journal.png";
+import teckdbImage from "../assets/images/teckdb.png";
 
 const projectsData = [
   {
@@ -29,19 +30,9 @@ const projectsData = [
     description:
       "Description for project 3. This project showcases my skills in ...",
     technologies: ["MongoDB", "Express", "React", "Node.js"],
-    imageUrl: "https://via.placeholder.com/150",
+    imageUrl: teckdbImage,
     githubUrl: "https://github.com/rearl89/teckdb",
     liveUrl: "https://teckdb-client.onrender.com",
-  },
-  {
-    id: 4,
-    title: "Project 4",
-    description:
-      "Description for project 4. This project showcases my skills in ...",
-    technologies: ["Tech1", "Tech2", "Tech3"],
-    imageUrl: "https://via.placeholder.com/150",
-    githubUrl: "#",
-    liveUrl: "#",
   },
   // Add more projects here
 ];
