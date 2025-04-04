@@ -10,8 +10,8 @@ function Home() {
         <img src={rogerImage} alt="Roger Earl" className="profile-image" />
         <h2>Full Stack Web Developer</h2>
         <p className="intro-text">
-          Building modern web applications with a focus on clean code and user
-          experience
+          Crafting intuitive web experiences while bridging the gap between
+          industrial processes and digital solutions
         </p>
         <div className="cta-buttons">
           <NavLink to="/projects" className="cta-button primary">
