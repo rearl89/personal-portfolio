@@ -26,9 +26,9 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Project 3",
+    title: "TeckDB",
     description:
-      "Description for project 3. This project showcases my skills in ...",
+      "A full-stack web application I developed to manage test results for the company I work for. This project allows users to create, read, update, and delete test results, providing a user-friendly interface for managing data. It showcases my skills in the MERN stack and my ability to build applications that solve real-world problems.",
     technologies: ["MongoDB", "Express", "React", "Node.js"],
     imageUrl: teckdbImage,
     githubUrl: "https://github.com/rearl89/teckdb",
