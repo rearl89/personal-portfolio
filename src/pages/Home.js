@@ -1,6 +1,7 @@
 import "../styles/Home.css";
 import { NavLink } from "react-router-dom";
 import rogerImage from "../assets/images/roger.png";
+import teckdbImage from "../assets/images/teckdb.png";
 
 function Home() {
   return (
@@ -26,7 +27,41 @@ function Home() {
       <section className="featured-section">
         <h2>Featured Projects</h2>
         <div className="featured-grid">
-          {/* Add 2-3 featured project cards here */}
+          <div className="project-card">
+            <img src={teckdbImage} alt="TeckDB" className="project-image" />
+            <div className="project-info">
+              <h3>TeckDB</h3>
+              <p>
+                A full-stack web application for managing test results with CRUD
+                operations.
+              </p>
+              <div className="tech-stack">
+                {["MongoDB", "Express", "React", "Node.js"].map(
+                  (tech, index) => (
+                    <span key={index} className="tech-tag">
+                      {tech}
+                    </span>
+                  )
+                )}
+              </div>
+              <div className="project-links">
+                <a
+                  href="https://github.com/rearl89/teckdb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://teckdb-client.onrender.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
