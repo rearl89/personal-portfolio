@@ -2,6 +2,7 @@ import "../styles/Projects.css";
 import arkanoidImage from "../assets/images/arkanoid.png";
 import journalImage from "../assets/images/journal.png";
 import teckdbImage from "../assets/images/teckdb.png";
+import golfBallImage from "../assets/images/golf-ball.png";
 
 const projectsData = [
   {
@@ -33,6 +34,16 @@ const projectsData = [
     imageUrl: teckdbImage,
     githubUrl: "https://github.com/rearl89/teckdb",
     liveUrl: "https://teckdb-client.onrender.com",
+  },
+  {
+    id: 4,
+    title: "Golf Ball PoS (Frontend Only)",
+    description:
+      "A frontend-only version of a Point of Sale system for a used golf ball company that talked about with a friend. It demonstrates my skills in front-end development and my understanding of user experience design.",
+    technologies: ["React", "Tailwind"],
+    imageUrl: golfBallImage,
+    githubUrl: "https://github.com/rearl89/golf-pos",
+    liveUrl: "https://golf-pos.onrender.com/",
   },
   // Add more projects here
 ];
