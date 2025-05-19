@@ -40,7 +40,7 @@ const projectsData = [
     title: "Golf Ball PoS (Frontend Only)",
     description:
       "A frontend-only version of a Point of Sale system for a used golf ball company that talked about with a friend. It demonstrates my skills in front-end development and my understanding of user experience design.",
-    technologies: ["React", "Tailwind"],
+    technologies: ["React", "Node.js", "Tailwind"],
     imageUrl: golfBallImage,
     githubUrl: "https://github.com/rearl89/golf-pos",
     liveUrl: "https://golf-pos.onrender.com/",
